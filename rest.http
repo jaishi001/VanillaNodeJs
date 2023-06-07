@@ -1,0 +1,19 @@
+#GET PRODUCTS
+GET HTTP://localhost:3000/api/products
+
+
+###
+#GET PRODUCT BY ID
+GET  http://localhost:3000/api/products/3
+
+
+###
+#ADD PRODUCTS
+POST HTTP://localhost:3000/api/products
+Content-Type: application/json
+
+{
+    "name":"Apple",
+    "description":"Good For Health"
+}
+
